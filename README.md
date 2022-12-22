@@ -37,3 +37,11 @@ of the 1st difference of the time series data.  incorporating at least 6 lags  f
   - Loss Function=Mean Square Error (MSE)
   - Model Checkpoint and EarlyStopping to avoid overfitting
 ![deep_learning](images/deep_learning.png)
+
+### Results
+- GRU model yielded the lowest MSE and RMSE on the testing dataset though it can also be seen that it only performs slightly better than the other two RNN-based models, so one may opt for the other RNN-based models also. 
+- Nevertheless, RNN-based models are better predictors than the traditional ARIMAX and SARIMAX models, as implied by the 38 days daily-average power usage forecast graph and performance measures.
+![results](images/results.png)
+
+## Collaborators
+![collaborators](images/collaborators.png)
