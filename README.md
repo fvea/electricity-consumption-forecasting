@@ -3,6 +3,7 @@
 - Promoted energy conservation by developing time-series forecasting models to forecast daily-average electricity consumption patterns of a residential household.
 - Incorporated weather variables and day category (weekday, weekend, vacation day, and COVID lockdown) in the prediction process.
 - The optimal model is a RNN-based model (GRU) with **MSE ~ 0.44**.
+- Publication: https://ieeexplore.ieee.org/document/9998301
 
 ## Methodology
 ![methodology](/images/methodology.png)
